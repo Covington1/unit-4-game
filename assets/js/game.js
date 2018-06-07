@@ -19,11 +19,11 @@
         // reset after win or loss
         function reset(){
             point = 0;
-            var ranNum = Math.floor(Math.random()*120-19)+19;
-            var red = Math.floor(Math.random()*12-1)+1;
-            var blue = Math.floor(Math.random()*12-1)+1;
-            var green = Math.floor(Math.random()*12-1)+1;
-            var yellow = Math.floor(Math.random()*12-1)+1;
+            ranNum = Math.floor(Math.random()*120-19)+19;
+            red = Math.floor(Math.random()*12-1)+1;
+            blue = Math.floor(Math.random()*12-1)+1;
+            green = Math.floor(Math.random()*12-1)+1;
+            yellow = Math.floor(Math.random()*12-1)+1;
 
             $("#ranNum").html(ranNum);
             $("#point").html(point);
